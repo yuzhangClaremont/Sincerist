@@ -94,8 +94,8 @@
         <!--Home View Controller-->
         <scene sceneID="FGv-SX-hU7">
             <objects>
-                <viewController id="6fT-5z-MPd" customClass="HomeViewController" customModule="Sincerist" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="HomeVC" id="rAp-Pb-NtF">
+                <viewController storyboardIdentifier="HomeVC" id="6fT-5z-MPd" customClass="HomeViewController" customModule="Sincerist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rAp-Pb-NtF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
