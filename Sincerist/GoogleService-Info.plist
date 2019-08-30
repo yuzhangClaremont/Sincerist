@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>667680204788-2n7g67u5fl0mprf7tumsp4s8khmq1dla.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.667680204788-2n7g67u5fl0mprf7tumsp4s8khmq1dla</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBBL75l4otxYZ8ox3btQeogO47gtzKrHrU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>667680204788</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Yun-Zhang-Pitzer.Sincerist</string>
+	<key>PROJECT_ID</key>
+	<string>sincerist-492e1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sincerist-492e1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:667680204788:ios:8844e0321fa0926b</string>
+	<key>DATABASE_URL</key>
+	<string>https://sincerist-492e1.firebaseio.com</string>
+</dict>
+</plist>
