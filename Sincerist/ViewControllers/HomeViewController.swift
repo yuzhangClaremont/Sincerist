@@ -7,9 +7,41 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var logOutButton: UIButton!
+    
+    @IBAction func logOutTapped(_ sender: Any) {
+        // sign in user
+        do {
+            try  Auth.auth().signOut()
+            // in closure you need self?
+            let ViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.viewController) as? ViewController // where store HomeVC in constants
+            
+            self.view.window?.rootViewController = ViewController // the id of view Controller
+            self.view.window?.makeKeyAndVisible()
+        } catch let err {
+            print(err)
+        }
+       
+        
+//        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+//            if error != nil
+//            {
+//                self.errorLabel.text = error!.localizedDescription
+//                self.errorLabel.alpha = 1
+//            }else{
+//                // in closure you need self?
+//                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController // where store HomeVC in constants
+//
+//                self.view.window?.rootViewController = homeViewController // the id of view Controller
+//                self.view.window?.makeKeyAndVisible()
+//            }
+//        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

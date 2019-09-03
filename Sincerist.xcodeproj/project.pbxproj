@@ -11,6 +11,10 @@
 		2147209F2311F7EB00B4C851 /* EmailLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147209E2311F7EB00B4C851 /* EmailLogInViewController.swift */; };
 		214720A12311F81900B4C851 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214720A02311F81900B4C851 /* HomeViewController.swift */; };
 		214720A52315A06900B4C851 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214720A42315A06800B4C851 /* Constants.swift */; };
+		214720AA231F18DB00B4C851 /* commun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 214720A7231F18DA00B4C851 /* commun.jpg */; };
+		214720AB231F18DB00B4C851 /* beachCouples.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 214720A8231F18DA00B4C851 /* beachCouples.jpg */; };
+		214720AC231F18DB00B4C851 /* bedroomGirls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 214720A9231F18DB00B4C851 /* bedroomGirls.jpg */; };
+		214720AE231F1A5500B4C851 /* fatherSon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 214720AD231F1A5500B4C851 /* fatherSon.mp4 */; };
 		21FD65DC230663F1004D8FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD65DB230663F1004D8FCB /* AppDelegate.swift */; };
 		21FD65DE230663F1004D8FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FD65DD230663F1004D8FCB /* ViewController.swift */; };
 		21FD65E1230663F1004D8FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FD65DF230663F1004D8FCB /* Main.storyboard */; };
@@ -25,6 +29,10 @@
 		2147209E2311F7EB00B4C851 /* EmailLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLogInViewController.swift; sourceTree = "<group>"; };
 		214720A02311F81900B4C851 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		214720A42315A06800B4C851 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		214720A7231F18DA00B4C851 /* commun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = commun.jpg; sourceTree = "<group>"; };
+		214720A8231F18DA00B4C851 /* beachCouples.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachCouples.jpg; sourceTree = "<group>"; };
+		214720A9231F18DB00B4C851 /* bedroomGirls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bedroomGirls.jpg; sourceTree = "<group>"; };
+		214720AD231F1A5500B4C851 /* fatherSon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fatherSon.mp4; sourceTree = "<group>"; };
 		21FD65D8230663F1004D8FCB /* Sincerist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sincerist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FD65DB230663F1004D8FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FD65DD230663F1004D8FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +77,17 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		214720A6231F16C600B4C851 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				214720A8231F18DA00B4C851 /* beachCouples.jpg */,
+				214720AD231F1A5500B4C851 /* fatherSon.mp4 */,
+				214720A9231F18DB00B4C851 /* bedroomGirls.jpg */,
+				214720A7231F18DA00B4C851 /* commun.jpg */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		21FD65CF230663F1004D8FCB = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +109,7 @@
 		21FD65DA230663F1004D8FCB /* Sincerist */ = {
 			isa = PBXGroup;
 			children = (
+				214720A6231F16C600B4C851 /* Media */,
 				214720A32315A03A00B4C851 /* Helper */,
 				214720A22311F82F00B4C851 /* ViewControllers */,
 				21FD65DB230663F1004D8FCB /* AppDelegate.swift */,
@@ -180,10 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214720AC231F18DB00B4C851 /* bedroomGirls.jpg in Resources */,
 				21FD65E6230663F6004D8FCB /* LaunchScreen.storyboard in Resources */,
 				21FD65EE2310F624004D8FCB /* GoogleService-Info.plist in Resources */,
 				21FD65E3230663F6004D8FCB /* Assets.xcassets in Resources */,
 				21FD65E1230663F1004D8FCB /* Main.storyboard in Resources */,
+				214720AE231F1A5500B4C851 /* fatherSon.mp4 in Resources */,
+				214720AA231F18DB00B4C851 /* commun.jpg in Resources */,
+				214720AB231F18DB00B4C851 /* beachCouples.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

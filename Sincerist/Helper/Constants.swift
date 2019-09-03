@@ -14,5 +14,6 @@ struct Constants
     {
         // find this variable without creating instance
         static let homeViewController = "HomeVC"
+        static let viewController = "VC"
     }
 }

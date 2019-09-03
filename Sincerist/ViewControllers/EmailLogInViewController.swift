@@ -20,6 +20,7 @@ class EmailLogInViewController: UIViewController {
     @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
+    
     @IBAction func submitTapped(_ sender: Any)
     {
         // validate login info
@@ -33,6 +34,8 @@ class EmailLogInViewController: UIViewController {
             {
                 self.errorLabel.text = error!.localizedDescription
                 self.errorLabel.alpha = 1
+                self.errorLabel.lineBreakMode = .byWordWrapping
+                self.errorLabel.numberOfLines = 0
             }else{
                 // in closure you need self?
                 let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController // where store HomeVC in constants

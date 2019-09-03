@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import FirebaseUI
+import AVKit // for play video
+//import FirebaseUI
 //import FacebookLogin
 
 class ViewController: UIViewController {
