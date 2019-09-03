@@ -83,6 +83,7 @@ class SignUpViewController: UIViewController {
 //                    var ref: DocumentReference? = nil
                     db.collection("users").addDocument(data: [
                         "userName": userName,
+                        "email": email,
                         "password": password,
                         "bio": "Start your new journey with Sincerist",
                         "uid": result!.user.uid

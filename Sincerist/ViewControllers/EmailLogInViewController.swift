@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class EmailLogInViewController: UIViewController {
 
@@ -19,7 +20,27 @@ class EmailLogInViewController: UIViewController {
     @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
-    @IBAction func submitTapped(_ sender: Any) {
+    @IBAction func submitTapped(_ sender: Any)
+    {
+        // validate login info
+
+        let email = emailText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = passwordText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // sign in user
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            if error != nil
+            {
+                self.errorLabel.text = error!.localizedDescription
+                self.errorLabel.alpha = 1
+            }else{
+                // in closure you need self?
+                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController // where store HomeVC in constants
+                
+                self.view.window?.rootViewController = homeViewController // the id of view Controller
+                self.view.window?.makeKeyAndVisible()
+            }
+        }
     }
     
     override func viewDidLoad() {
