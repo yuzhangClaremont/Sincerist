@@ -34,8 +34,8 @@ class EmailLogInViewController: UIViewController {
             {
                 self.errorLabel.text = error!.localizedDescription
                 self.errorLabel.alpha = 1
-                self.errorLabel.lineBreakMode = .byWordWrapping
-                self.errorLabel.numberOfLines = 0
+//                self.errorLabel.lineBreakMode = .byWordWrapping
+//                self.errorLabel.numberOfLines = 0
             }else{
                 // in closure you need self?
                 let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController // where store HomeVC in constants
